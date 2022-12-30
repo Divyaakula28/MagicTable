@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MagicTable/static/css/main.90185d81.css",
-    "main.js": "/MagicTable/static/js/main.5db40cd5.js",
+    "main.js": "/MagicTable/static/js/main.3eac1303.js",
     "static/js/787.7e992e05.chunk.js": "/MagicTable/static/js/787.7e992e05.chunk.js",
     "static/media/logo-no-background.png": "/MagicTable/static/media/logo-no-background.d84adcca7bfbd243da64.png",
     "static/media/mainimg1.png": "/MagicTable/static/media/mainimg1.2b2d120e6afb4811845a.png",
@@ -16,11 +16,11 @@
     "index.html": "/MagicTable/index.html",
     "static/media/calendar.svg": "/MagicTable/static/media/calendar.0dacefb896b302b8c066.svg",
     "main.90185d81.css.map": "/MagicTable/static/css/main.90185d81.css.map",
-    "main.5db40cd5.js.map": "/MagicTable/static/js/main.5db40cd5.js.map",
+    "main.3eac1303.js.map": "/MagicTable/static/js/main.3eac1303.js.map",
     "787.7e992e05.chunk.js.map": "/MagicTable/static/js/787.7e992e05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90185d81.css",
-    "static/js/main.5db40cd5.js"
+    "static/js/main.3eac1303.js"
   ]
 }
