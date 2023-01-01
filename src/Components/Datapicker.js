@@ -4,8 +4,8 @@ import '../CSS/datapicker.css';
 
 class Datapicker extends Component  {
         state = {
-        startDate:'2000-07-28',
-          urlDate:'28-07-2000',
+        startDate:'1947-08-15',
+          urlDate:'15-08-1947',
           showCalendar: false,
           cond:false,
           for_button:'forbutton'
