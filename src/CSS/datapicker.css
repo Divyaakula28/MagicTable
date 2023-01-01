@@ -1,0 +1,26 @@
+input[type="date"]{
+    background: url("../CSS/calendar.svg") no-repeat right;
+    padding: 12px 20px 13px;
+    margin: 8px 0;
+    display: inline-block;
+    border: solid 2px;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 20px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+@media only screen and (max-width: 350px){
+    input[type='date']{
+        width:100%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    }
+}

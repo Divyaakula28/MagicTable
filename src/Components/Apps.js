@@ -36,7 +36,22 @@ class Apps extends Component {
     return (
       <div>
         <center>
-        <input type="date" id="birthday" name="birthday"></input>
+          <div  className="input-group mb-3 justify-content-sm-center">
+          <div className='App1'>          
+          <input  className='forinput'  href='#calendar'
+            value={this.state.date.toLocaleDateString()}
+            onFocus={() => this.setState({showCalendar:true,cond:false})}
+          />
+          <Link to={{pathname: "/magic_table",search:`?DOB=${this.state.urlDate}`}} state={this.state.date}><button onClick={this.clicked} className='forbutton' >Check Here </button></Link>
+          <Calendar  id='calendar'
+            className={this.state.showCalendar ? "show" : "hide" } 
+            value={this.state.date}
+            onChange={this.handleChange}
+            format="dd-MM-yyyy"
+          />
+          <br></br>
+        </div>
+          </div>
         </center>
       </div>
     );

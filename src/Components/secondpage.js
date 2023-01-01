@@ -49,22 +49,25 @@ class Secondpage extends Component {
   }
 
 
-  datechange = value => {
+  datechange = (e) => {
   /*for auto url chnage
     this.searchParams.set('DOB',e.target.value)
     window.location.search=this.searchParams.toString();
     */
-  this.setState({showCalendar:!(this.state.showCalendar)}); 
-  this.setState({for_button:'forbutton'})
-   const yy=value.getFullYear()
-   const mm=value.getMonth()+1<10?'0'+(value.getMonth()+1):value.getMonth()+1
-   const dd=value.getDate()<10?'0'+value.getDate():value.getDate()
-  this.setState({fisrtone:value,urlDate:dd+'-'+mm+'-'+yy,Dates:dd,Months:mm,Years:yy,nochnge:false });
-  };
+    this.setState({for_button:'forbutton'})
+    const k=e.target.value;
+    const date=k.split('-')
+     const yy=date[0]
+     const mm=date[1]
+     const dd=date[2]
+    this.setState({Date:k,urlDate:date[2]+'-'+date[1]+'-'+date[0],Dates:dd,Months:mm,Years:yy,nochnge:false });
+    console.log(this.state.urlDate)
+    };
+  
   
   updating=()=>{
     if (this.state.nochnge===false){
-      this.setState({nochnge:true})
+      this.setState({nochnge:true,blast:false,timmer:1})
     }
 
     this.setState({jj:true});
@@ -77,23 +80,14 @@ class Secondpage extends Component {
     } 
     else{
       return (
-        <div>
+        <div className="marginforall">
           <Navfooter/>
           <center>
             <div  className="input-group  justify-content-sm-center justify-content-center pt-md-2 pt-sm-3">
-              <div className="App1">
-            <input  className='forinput'
-            value={this.state.fisrtone.toLocaleDateString()}
-            onFocus={() => this.setState({showCalendar:true,cond:false})}
-          />
-          <Link to={`/magic_table?DOB=${this.state.urlDate}`}><button onClick={this.updating} className='forbutton' >Check Here </button></Link>
-          <Calendar 
-            className={this.state.showCalendar ? "show" : "hide" } 
-            value={this.state.fisrtone}
-            onChange={this.datechange}
-            format="dd-MM-yyyy"
-          />
-            </div>
+            <center>
+        <input className='col-xs-4 datebox' type="date" onkeydown="return false" id="myDate" placeholder="dd-mm-yyyy" value={this.state.Date}  onChange={this.datechange}/>
+        <Link to={{pathname: "/magic_table",search:`?DOB=${this.state.urlDate}`}} state={this.state.startDate}><button onClick={this.updating} className='forbutton'>Check Here </button></Link>
+        </center>
             </div>
             {this.state.nochnge?this.CallTable():undefined}
           </center>

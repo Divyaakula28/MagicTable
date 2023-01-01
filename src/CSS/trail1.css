@@ -1,84 +1,83 @@
+
 .react-calendar { 
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
-  .react-calendar__navigation button {
-   color: #2980b9;
-   min-width: 34px;
-   background: none;
-   font-size: 20px;
-   margin-top: 8px;
-   font-weight: bold;
-  }
-  .react-calendar__navigation{
-    font-size: medium;
-  }
-  .react-calendar.hide {
-    display: none;
-  
-  }
-  .react-calendar.show{
-    width: 350px;
-    max-width: 100%;
-    font-size: medium;
-    border: 2px solid #a0a096;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.125em;
-  }
-  .react-calendar__tile{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: small;
-    font-weight: bold;
-    padding: calc(0.75em / 0.75) calc(0.5em / 0.75)
-  }
-  
-  
-  .forinput{
-    background: url("../CSS/calendar.svg") no-repeat right;
-    padding: 12px 20px 13px;
-    margin: 8px 0;
-    display: inline-block;
-    border: solid 2px;
-    border-radius: 5px 0px 0px 5px;
-    font-size: 20px;
-  }
-  .forbutton{
-    padding: 12px 15px 13px;
+.react-calendar__navigation button {
+  color: #2980b9;
+ }
+
+ .react-calendar__navigation{
+  font-size: medium;
+
+}
+.react-calendar.hide {
+  display: none;
+
+}
+
+.react-calendar__tile{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  padding: calc(0.75em / 0.75) calc(0.5em / 0.75)
+}
+.forinput{
+  background: url("../CSS/calendar.svg") no-repeat right;
+  padding: 12px 20px 13px;
+  margin: 8px 0;
+  display: inline-block;
+  border: solid 2px;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 20px;
+}
+.forbutton{
+  padding: 12px 15px 13px;
     margin: 8px 0;
     border-radius: 0px 5px 5px 0px;
     display: inline-block;
     box-sizing: border-box;
+    border:solid 2px;
     font-size: 20px;
     text-align: center;
     border-left:none;
+}
+.react-calendar.show{
+  width: 350px;
+  max-width: 100%;
+  font-size: medium;
+  border: 2px solid #a0a096;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
   
-  }
-.forbutton:hover{
-    background-color: #d2e3ef;
 }
 
+.react-calendar__tile{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  padding: calc(0.75em / 0.75) calc(0.5em / 0.75)
+}
 
-
-@media only screen and (max-width: 405px) {  
+@media only screen and (max-width: 350px){
   .forinput{
-    background: url("../CSS/calendar.svg") no-repeat right;
-    padding: 12px 20px 13px;
-    margin: 8px 0;
-    display: inline-block;
-    border: solid 2px;
+    width:100%;
+    font-size: 16px;
+    font-weight: bold;
     border-radius: 5px 5px 5px 5px;
-    font-size: 20px;
   }
   .forbutton{
-    padding: 12px 15px 13px;
     margin: 8px 0;
     border-radius: 5px 5px 5px 5px;
     display: inline-block;
     box-sizing: border-box;
     font-size: 20px;
     text-align: center;
-    border-left:solid 2px;
-  
+    border-left:solid 1px;
   }
-  }
+
+
+}
+
+

@@ -10,6 +10,7 @@ import corner from '../Images/corner.png';
 import mainimg from '../Images/mainimg.png';
 import mainimg1 from '../Images/mainimg1.png';
 import Confetti from 'react-confetti'
+import Datapicker from '../Components/Datapicker';
 
 import row from '../Images/Row.png';
 import Apps from '../Components/Apps';
@@ -59,7 +60,7 @@ class Content extends Component{
                                     <p className="textstyling">Would you like to see <strong className="highlight">Magic square for your Special enchantment date..??</strong> </p>
                                     <p className="textstyling ">So,What's late then? !!!</p>
                                     <p className="textstyling">Make a little Magic by choosing the DATE below.</p>
-                                    <Apps/>
+                                    <Datapicker/>
                                     
                                 </p>
                             </div>

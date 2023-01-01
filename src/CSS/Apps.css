@@ -11,17 +11,11 @@
     height: 50px;
   }
 
-  .forbutton{
-    padding: 12px 20px;
-    margin: 8px 0;
-    border-radius: 0px 5px 5px 0px;
-    display: inline-block;
-    box-sizing: border-box;
-    font-size: 16px;
-  }
+
   .datearea{
     background-color: #2980B9;
   }
+
   
  
   
