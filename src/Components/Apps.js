@@ -37,7 +37,6 @@ class Apps extends Component {
       <div>
         <center>
         <input type="date" id="birthday" name="birthday"></input>
-
         </center>
       </div>
     );
