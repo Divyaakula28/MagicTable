@@ -41,7 +41,9 @@ class Secondpage extends Component {
 
     const intervalId = setInterval(() => {
       this.setState(prevState => {
-
+        return {
+          Date: (this.state.Date),
+        };
         
       });
     }, 4000);
