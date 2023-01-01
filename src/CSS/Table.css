@@ -1,7 +1,7 @@
 .table{
   justify-content: center;
   align-items: center;
-  width:100%;
+  width:350px;
   margin-left: auto;
   margin-right: auto;
   border-collapse:separate;
@@ -15,9 +15,7 @@
   border: 1px solid blueviolet;
   border-radius:6px;
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  
+  padding: 20px;
   font-weight: lighter;
   font-size: 30px;
   color: black;
@@ -29,8 +27,7 @@
   border: 1px solid blueviolet;
   border-radius:6px;
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding: 20px;
   font-weight: bolder;
   font-size: 30px;
   color: black;
@@ -45,7 +42,7 @@
     margin-top: 5%;
   }
   .marginforall{
-    margin-bottom: 100px;
+    margin-bottom: 5%;
   }
   .forbrdrstyling{
     border-style: groove;
@@ -268,8 +265,5 @@
   .brdrstyling1{
     border-left: 2px solid;
   }
-
-}
-@media only screen and (max-width: 350px){
 
 }
