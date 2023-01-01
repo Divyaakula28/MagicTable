@@ -18,7 +18,7 @@ class Secondpage extends Component {
     super(props);
     console.log(this.url);
     this.state = {
-      Date:this.lang,
+      Date:this.lang.slice(6,10)+'-'+this.lang.slice(3,5)+'-'+this.lang.slice(0,2),
       urlDate:this.lang,
       Dates:this.lang.slice(0,2),
       Months:this.lang.slice(3,5),
@@ -40,9 +40,7 @@ class Secondpage extends Component {
 
     const intervalId = setInterval(() => {
       this.setState(prevState => {
-        return {
-          Date: (this.state.Date),
-        };
+
         
       });
     }, 4000);
