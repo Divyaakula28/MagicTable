@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MagicTable/static/css/main.867fad5f.css",
-    "main.js": "/MagicTable/static/js/main.2d0add7b.js",
+    "main.js": "/MagicTable/static/js/main.fd470af7.js",
     "static/js/787.7e992e05.chunk.js": "/MagicTable/static/js/787.7e992e05.chunk.js",
     "static/media/logo-no-background.png": "/MagicTable/static/media/logo-no-background.d84adcca7bfbd243da64.png",
     "static/media/mainimg1.png": "/MagicTable/static/media/mainimg1.2b2d120e6afb4811845a.png",
@@ -16,11 +16,11 @@
     "index.html": "/MagicTable/index.html",
     "static/media/calendar.svg": "/MagicTable/static/media/calendar.0dacefb896b302b8c066.svg",
     "main.867fad5f.css.map": "/MagicTable/static/css/main.867fad5f.css.map",
-    "main.2d0add7b.js.map": "/MagicTable/static/js/main.2d0add7b.js.map",
+    "main.fd470af7.js.map": "/MagicTable/static/js/main.fd470af7.js.map",
     "787.7e992e05.chunk.js.map": "/MagicTable/static/js/787.7e992e05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.867fad5f.css",
-    "static/js/main.2d0add7b.js"
+    "static/js/main.fd470af7.js"
   ]
 }
