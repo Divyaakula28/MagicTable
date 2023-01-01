@@ -20,7 +20,7 @@ class Datapicker extends Component  {
     return(
         <center>
         <input className='col-xs-4 datebox' type="date"  onkeydown="return false" id="myDate" placeholder="dd-mm-yyyy" value={this.state.startDate}  onChange={this.handlechange}/>
-        <Link to={{pathname: "/magic_table",search:`?DOB=${this.state.urlDate}`}} state={this.state.startDate}><button className='forbutton'>Check Here </button></Link>
+        <Link to={{pathname: "/magic_table",search:`?DOB=${this.state.urlDate}`}} state={this.state.startDate}><button className='forbutton1'>Check Here </button></Link>
         </center>
     )
     }

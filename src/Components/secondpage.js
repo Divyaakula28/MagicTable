@@ -7,6 +7,8 @@ import '../CSS/Apps.css';
 import { useSearchParams } from "react-router-dom";
 import Confetti from 'react-confetti';
 import '../CSS/confetti.css';
+import '../CSS/datapicker.css';
+
 
 
 class Secondpage extends Component {
@@ -85,7 +87,7 @@ class Secondpage extends Component {
             <div  className="input-group  justify-content-sm-center justify-content-center pt-md-2 pt-sm-3">
             <center>
         <input className='col-xs-4 datebox' type="date" onkeydown="return false" id="myDate" placeholder="dd-mm-yyyy" value={this.state.Date}  onChange={this.datechange}/>
-        <Link to={{pathname: "/magic_table",search:`?DOB=${this.state.urlDate}`}} state={this.state.startDate}><button onClick={this.updating} className='forbutton'>Check Here </button></Link>
+        <Link to={{pathname: "/magic_table",search:`?DOB=${this.state.urlDate}`}} state={this.state.startDate}><button onClick={this.updating} className='forbutton1'>Check Here </button></Link>
         </center>
             </div>
             {this.state.nochnge?this.CallTable():undefined}
