@@ -208,13 +208,16 @@ export const Table=(pro)=>{
             <div>
             <div ref={componentRef2} className="marginforall">
             <div className='brdr'> 
+            <center>
+            <CardTitle tag="h6"  className='titleheading'> MAGIC TABLE for {pro.dd}-{pro.mm}-{pro.yyyy} </CardTitle>
+
+            </center>
                <Container className='col-lg-12'>
                 <Row>
                     <Container className='col-lg-1' ></Container>
                     <Container className='col-lg-5 brdrstyling'>
                     <div ref={componentRef} className='col-lg-10 col-md-8'>
                                 <Card body  className='forbrdrstyling' style={{border:'none'}}>
-                                <CardTitle tag="h6"  className='titleheading'> MAGIC TABLE </CardTitle>
                                     <CardText>
                                         <table  className='table' style={{border:'1px',borderStyle:'solid',borderRadius:'6px',borderColor:'#0794f2'}}>
                                             <tr>
@@ -295,7 +298,7 @@ export const Table=(pro)=>{
                 )
             }
             else{
-                return(<h1>cannot able to create</h1>)
+                return(<h1>sorry,cannot able to create Magic Table for {pro.dd}-{pro.mm}-{pro.yyyy}</h1>)
             }
         }
 

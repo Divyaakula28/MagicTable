@@ -77,7 +77,7 @@ class Secondpage extends Component {
   render() {
     console.log(this.state.Date)
     if (this.state.Date.length!==10 || !isNaN(this.state.Dates) === false || !isNaN(this.state.Months) === false || !isNaN(this.state.Years) === false|| this.lang.slice(2,3)!=='-' || this.lang.slice(5,6)!=='-') {
-      return <h1>error</h1>;
+      return <h1>cannotable to create magic table for {this.state.Date}</h1>;
     } 
     else{
       return (
