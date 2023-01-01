@@ -261,8 +261,7 @@
 }
 @media only screen and (max-width: 992px) {
   .brdrstyling{
-    border: 2px solid;
-    
+    border: 2px solid; 
     border-bottom: none;
   }
   .brdrstyling1{
@@ -272,6 +271,6 @@
 }
 @media only screen and (max-width: 350px){
   .table{
-    width:30%
+    width:100%
   }
 }

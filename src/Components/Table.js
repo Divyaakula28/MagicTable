@@ -275,11 +275,9 @@ export const Table=(pro)=>{
             </div>
             <div ref={componentRef1}>
                 { showResults ? <Cases2 a={window.rowvalues} style_type={lst} /> : null} 
-                {blast?<Confetti id='hideMeAfter5Seconds' numberOfPieces='1000'/>:null}
- 
-                 
             </div>
         </div>
+        {blast?<Confetti id='hideMeAfter5Seconds' numberOfPieces='1000'/>:null}
         )
     }
 
