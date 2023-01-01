@@ -27,17 +27,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
       font-size: 20px;
       text-align: center;
       border-left:none;
-<<<<<<< HEAD
       background-color: aliceblue;
   }
   .forbutton1:hover{
     background-color:#87adc7;
-=======
-      background-color:aliceblue;
-  }
-  .forbutton1:hover{
-    background-color:#2980B9;
->>>>>>> 092d81427902ead94426d55935c1833003e75aae
 
   }
 @media only screen and (max-width: 768px){
