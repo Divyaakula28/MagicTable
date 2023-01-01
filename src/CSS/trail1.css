@@ -60,7 +60,7 @@
 
 
 
-@media only screen and (max-width: 403px) {  
+@media only screen and (max-width: 405px) {  
   .forinput{
     background: url("../CSS/calendar.svg") no-repeat right;
     padding: 12px 20px 13px;
