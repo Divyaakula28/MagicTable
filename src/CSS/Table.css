@@ -1,7 +1,7 @@
 .table{
   justify-content: center;
   align-items: center;
-  width:350px;
+  width:100%;
   margin-left: auto;
   margin-right: auto;
   border-collapse:separate;
@@ -15,7 +15,9 @@
   border: 1px solid blueviolet;
   border-radius:6px;
   text-align: center;
-  padding: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
   font-weight: lighter;
   font-size: 30px;
   color: black;
@@ -27,7 +29,8 @@
   border: 1px solid blueviolet;
   border-radius:6px;
   text-align: center;
-  padding: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   font-weight: bolder;
   font-size: 30px;
   color: black;
@@ -42,7 +45,7 @@
     margin-top: 5%;
   }
   .marginforall{
-    margin-bottom: 5%;
+    margin-bottom: 100px;
   }
   .forbrdrstyling{
     border-style: groove;
@@ -267,7 +270,7 @@
   }
 
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 350px){
   .table{
     width:30%
   }
