@@ -205,7 +205,7 @@ export const Table=(pro)=>{
             }}
         window.rowvalues=a;
         return( 
-            
+            <div>
             <div ref={componentRef2} className="marginforall">
             <div className='brdr'> 
                <Container className='col-lg-12'>
@@ -278,6 +278,7 @@ export const Table=(pro)=>{
             </div>
         </div>
         {blast?<Confetti id='hideMeAfter5Seconds' numberOfPieces='1000'/>:null}
+        </div>
         )
     }
 
