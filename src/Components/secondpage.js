@@ -18,7 +18,6 @@ class Secondpage extends Component {
 
   constructor(props) {
     super(props);
-    console.log(this.url);
     this.state = {
       Date:this.lang.slice(6,10)+'-'+this.lang.slice(3,5)+'-'+this.lang.slice(0,2),
       urlDate:this.lang,
@@ -61,7 +60,6 @@ class Secondpage extends Component {
      const mm=date[1]
      const dd=date[2]
     this.setState({Date:k,urlDate:date[2]+'-'+date[1]+'-'+date[0],Dates:dd,Months:mm,Years:yy,nochnge:false });
-    console.log(this.state.urlDate)
     };
   
   

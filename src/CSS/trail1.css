@@ -1,15 +1,4 @@
 
-.forbutton{
-  padding: 12px 15px 13px;
-    margin: 8px 0;
-    border-radius: 0px 5px 5px 0px;
-    display: inline-block;
-    box-sizing: border-box;
-    border:solid 2px;
-    font-size: 20px;
-    text-align: center;
-    border-left:none;
-}
 
 
 @media only screen and (max-width: 768px){
@@ -19,15 +8,7 @@
     font-weight: bold;
     border-radius: 5px 5px 5px 5px;
   }
-  .forbutton1{
-    margin: 8px 0;
-    border-radius: 5px 5px 5px 5px;
-    display: inline-block;
-    box-sizing: border-box;
-    font-size: 20px;
-    text-align: center;
-    border-left:solid 1px;
-  }
+
 
 
 }
