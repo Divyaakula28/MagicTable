@@ -33,7 +33,6 @@ export default function Printing1(Pro) {
             
         }
         setShow1(true);
-        console.log(mainref1)
         
     }
 
