@@ -48,6 +48,23 @@ class Content extends Component{
             </Helmet>
             <Navfooter/>
             <Container className="maincontainer">
+            <div className="card" >
+                        <button onClick={()=>this.fn1('card1')} className='Cardheading'>
+                            <div className="card-header headerstyle" id="About">
+                                <h3 className="mb-0 headtext">About</h3>
+                            </div>
+                        </button>
+                        <Collapse isOpen={this.state.card1} className='mainbody'>
+                            <div className="card-body ">
+                                <p className="d-sm-block d-block">
+                                    <p className="textstyling">A magic square is an NxN matrix in which every row, column, and diagonal sums up to the <i className="highlight">same number</i>. The sum is called the <i className="highlight">magic constant or magic sum</i> of the magic square. <br></br></p>
+                                    <h4 className="history">History :</h4>
+                                   <p className="textstyling">Mathematician, Ramanujan created a Magic Square: one of its kind fascinating mathematical objects that has a deep and mysterious history that has been so far unmanageable for researchers and mathematicians to decipher. Knowing and learning about this magic square can be helpful and rewarding for students. While math, as a subject might be strenuous and arduous, its wonders never fail to leave us flabbergasted. One such magical math square was created by Srinivasa Ramanujan, who was an Indian mathematician. This magical square is a matrix of numbers in which every row, column and diagonal add up to the same number. </p> 
+                                   <a className="knowmore" href="https://en.wikipedia.org/wiki/Magic_square" target="_blank">know more</a>
+                                </p>
+                            </div>
+                        </Collapse>
+                    </div>
                     <div className="card" >
                         <button onClick={()=>this.fn1('card3')} className='Cardheading'>
                             <div className="card-header" role="tab" id="Try Your's">
@@ -66,23 +83,7 @@ class Content extends Component{
                             </div>
                         </Collapse>
                     </div>
-                    <div className="card" >
-                        <button onClick={()=>this.fn1('card1')} className='Cardheading'>
-                            <div className="card-header headerstyle" id="About">
-                                <h3 className="mb-0 headtext">About</h3>
-                            </div>
-                        </button>
-                        <Collapse isOpen={this.state.card1} className='mainbody'>
-                            <div className="card-body ">
-                                <p className="d-sm-block d-block">
-                                    <p className="textstyling">A magic square is an NxN matrix in which every row, column, and diagonal sums up to the <i className="highlight">same number</i>. The sum is called the <i className="highlight">magic constant or magic sum</i> of the magic square. <br></br></p>
-                                    <h4 className="history">History :</h4>
-                                   <p className="textstyling">Mathematician, Ramanujan created a Magic Square: one of its kind fascinating mathematical objects that has a deep and mysterious history that has been so far unmanageable for researchers and mathematicians to decipher. Knowing and learning about this magic square can be helpful and rewarding for students. While math, as a subject might be strenuous and arduous, its wonders never fail to leave us flabbergasted. One such magical math square was created by Srinivasa Ramanujan, who was an Indian mathematician. This magical square is a matrix of numbers in which every row, column and diagonal add up to the same number. </p> 
-                                   <a className="knowmore" href="https://en.wikipedia.org/wiki/Magic_square" target="_blank">know more</a>
-                                </p>
-                            </div>
-                        </Collapse>
-                    </div>
+                    
                     <div className="card">
                         <button onClick={()=>this.fn1('card2')} className='Cardheading'>
                             <div className="card-header" role="tab" id="Example">
