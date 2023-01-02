@@ -7,13 +7,11 @@ import column from '../Images/Column.png';
 import diagonal1 from '../Images/Diagonal1.png';
 import diagonal2 from '../Images/Diagonal2.png';
 import corner from '../Images/corner.png';
-import mainimg from '../Images/mainimg.png';
 import mainimg1 from '../Images/mainimg1.png';
 import Confetti from 'react-confetti'
 import Datapicker from '../Components/Datapicker';
 
 import row from '../Images/Row.png';
-import Apps from '../Components/Apps';
 import '../CSS/content.css';
 import { Helmet } from 'react-helmet'
 

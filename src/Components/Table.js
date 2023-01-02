@@ -1,5 +1,5 @@
 import React,{useRef,useEffect} from 'react';
-import { Card,CardText,CardTitle,Row,Col,Button,CardBody, Container } from 'reactstrap';
+import { Card,CardText,CardTitle,Row,Container } from 'reactstrap';
 import 'react-calendar/dist/Calendar.css';
 import {Cases2} from '../Components/Tablepart/Cases2';
 import '../CSS/Table.css';

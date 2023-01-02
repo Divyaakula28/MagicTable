@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub,AiFillTwitterSquare,AiFillInstagram,AiOutlineMail,AiFillLinkedin} from "react-icons/ai";
+import { AiFillGithub,AiFillTwitterSquare,AiOutlineMail,AiFillLinkedin} from "react-icons/ai";
 import '../CSS/templates.css';
 
 export default function Footer(){
