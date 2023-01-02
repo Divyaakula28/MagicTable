@@ -30,7 +30,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
       background-color: aliceblue;
   }
   .forbutton1:hover{
-    background-color:#a3bac9;
+    background-color:#bcd5e6;
 
   }
 @media only screen and (max-width: 768px){

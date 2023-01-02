@@ -46,7 +46,7 @@ class Secondpage extends Component {
         };
         
       });
-    }, 4000);
+    }, 4500);
   }
 
 

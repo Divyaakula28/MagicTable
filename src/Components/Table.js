@@ -209,7 +209,7 @@ export const Table=(pro)=>{
             <div ref={componentRef2} className="marginforall">
             <div className='brdr'> 
             <center>
-            <CardTitle tag="h6"  className='titleheading'> MAGIC TABLE for {pro.dd}-{pro.mm}-{pro.yyyy} </CardTitle>
+            <CardTitle tag="h6"  className='titleheading'> MAGIC TABLE for<em style={{color:'#2980B9'}}> {pro.dd}-{pro.mm}-{pro.yyyy} </em></CardTitle>
 
             </center>
                <Container className='col-lg-12'>
@@ -246,7 +246,7 @@ export const Table=(pro)=>{
                                             </tr>
                                         </table>
                                     </CardText> 
-                                    <CardTitle tag="h6" className='head'>Sum of <span>{helloo()}</span> equals to {sumofvalues}</CardTitle>
+                                    <CardTitle tag="h6" className='head'>Sum of <span>{helloo()}</span> equals to <em style={{color:'#2980B9'}}>{sumofvalues}</em></CardTitle>
                                 </Card>
                              </div>
                     </Container>
